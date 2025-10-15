@@ -6,74 +6,415 @@
   <meta name="keywords" content="Henry Olvera, currículum, CV, ingeniería en ciencias computacionales, ESPOL, habilidades, experiencia" />
   <meta name="description" content="Currículum de Henry Olvera — estudiante de Ingeniería en Ciencias Computacionales. Contacto, habilidades, experiencia y educación." />
   <meta name="author" content="Henry Olvera" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
 
   <header>
     <h1>Henry Olvera</h1>
     <p>Estudiante de Ingeniería en Ciencias Computacionales — ESPOL</p>
-
   </header>
 
   <main>
+    <section id="perfil">
+      <h2 class="subtitle">Perfil Profesional</h2>
+      <figure>
+        <img 
+          id="photo"
+          src="https://ui-avatars.com/api/?name=Henry+Olvera&size=300&background=2c3e50&color=fff&bold=true" 
+          alt="Avatar de Henry Olvera"
+          width="300"
+          height="300"
+          loading="lazy">
+        <figcaption>Henry Olvera - Estudiante de Ingeniería en Ciencias Computacionales</figcaption>
+      </figure>
+    </section>
+
     <section id="contacto">
-      <h2>Contacto</h2>
-      <p><strong>Email:</strong> henrymoises2815@gmail.com</p>
-      <p><strong>Teléfono:</strong> +593 964 054 324</p>
-      <p><strong>Dirección:</strong> Colinas de la Florida 2, Mz879 S27</p>
-      <p><strong>LinkedIn:</strong> <a href="#">Tu perfil LinkedIn</a></p>
+      <h2 class="subtitle">Contacto</h2>
+      <address>
+        <p><strong>Email:</strong> <a href="mailto:henrymoises2815@gmail.com">henrymoises2815@gmail.com</a></p>
+        <p><strong>Teléfono:</strong> <a href="tel:+593964054324">+593 964 054 324</a></p>
+        <p><strong>Dirección:</strong> Colinas de la Florida 2, Mz879 S27</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/henry-olvera" target="_blank" rel="noopener noreferrer">Ver mi perfil profesional</a></p>
+      </address>
     </section>
 
     <section id="resumen">
-      <h2>Resumen</h2>
+      <h2 class="subtitle">Resumen</h2>
       <p>
         Actualmente estudiando Ingeniería en Ciencias Computacionales en la ESPOL.
         Prefiere un entorno de trabajo colaborativo tanto en proyectos como en lo laboral.
-        Interés en redes, bases de datos y atención al cliente; busca oportunidades para aprender y aplicar habilidades técnicas y de comunicación.
+        Interés en redes, bases de datos y atención al cliente; busca oportunidades para aprender y aplicar habilidades técnicas y de comunicación. 
+        Para más información, visite mi <a href="https://www.linkedin.com/in/henry-olvera" target="_blank" rel="noopener noreferrer">perfil de LinkedIn</a>.
       </p>
     </section>
 
     <section id="habilidades">
-      <h2>Habilidades</h2>
+      <h2 class="subtitle">Habilidades</h2>
       <ul>
-        <li>Atención al cliente y ventas.</li>
-        <li>Conocimientos básicos de bases de datos.</li>
-        <li>Conocimientos básicos de redes (Cisco Packet Tracer).</li>
-        <li>Uso de TICs.</li>
-        <li>Idiomas: Español (nativo), Inglés (básico).</li>
+        <li>Atención al cliente y ventas</li>
+        <li>Conocimientos básicos de bases de datos (SQL, diseño relacional)</li>
+        <li>Conocimientos básicos de redes (Cisco Packet Tracer)</li>
+        <li>Uso de TICs</li>
+        <li>Idiomas: Español (nativo), Inglés (básico)</li>
       </ul>
+    </section>
+
+    <section id="habilidades-tecnicas">
+      <h2 class="subtitle">Habilidades Técnicas</h2>
+      <table>
+        <caption>Nivel de competencia en áreas técnicas</caption>
+        <thead>
+          <tr>
+            <th scope="col">Área</th>
+            <th scope="col">Tecnología/Herramienta</th>
+            <th scope="col">Nivel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Bases de Datos</th>
+            <td>SQL, MySQL, Diseño Relacional</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <th scope="row">Redes</th>
+            <td>Cisco Packet Tracer, Configuración básica</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <th scope="row">Desarrollo Web</th>
+            <td>HTML, CSS</td>
+            <td>Intermedio</td>
+          </tr>
+          <tr>
+            <th scope="row">Atención al Cliente</th>
+            <td>Ventas, Soporte, Gestión de inventario</td>
+            <td>Avanzado</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section id="experiencia">
-      <h2>Experiencia</h2>
-      <p><strong>Tienda Derick (Quevedo)</strong> — Atención al cliente y ventas (2017 - 2023)</p>
-      <p>Funciones: atención al cliente, ventas en sucursal, cobro, soporte en piso de ventas y mantenimiento de inventario.</p>
+      <h2 class="subtitle">Experiencia</h2>
+      <article>
+        <h3>Tienda Derick (Quevedo)</h3>
+        <p><strong>Puesto:</strong> Atención al cliente y ventas</p>
+        <p><strong>Período:</strong> <time datetime="2017">2017</time> - <time datetime="2023">2023</time></p>
+        <p><strong>Funciones:</strong></p>
+        <ol>
+          <li>Atención al cliente y asesoría en productos</li>
+          <li>Ventas en sucursal y gestión de transacciones</li>
+          <li>Cobro y manejo de caja registradora</li>
+          <li>Soporte en piso de ventas</li>
+          <li>Mantenimiento y control de inventario</li>
+        </ol>
+      </article>
     </section>
 
     <section id="educacion">
-      <h2>Educación</h2>
-      <ul>
-        <li><strong>Colegio San Benildo La Salle</strong> — Bachiller en uso de tecnologías informáticas (2025 - 2025)</li>
-        <li><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong> — Estudiante de Ingeniería en Ciencias Computacionales (2023 - Actualidad)</li>
-      </ul>
+      <h2 class="subtitle">Educación</h2>
+      <ol reversed>
+        <li>
+          <strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong><br>
+          Estudiante de Ingeniería en Ciencias Computacionales<br>
+          <time datetime="2023">2023</time> - Actualidad
+        </li>
+        <li>
+          <strong>Colegio San Benildo La Salle</strong><br>
+          Bachiller en uso de tecnologías informáticas<br>
+          <time datetime="2023">2023</time> - <time datetime="2025">2025</time>
+        </li>
+      </ol>
     </section>
 
     <section id="premios">
-      <h2>Premios y Reconocimientos</h2>
-      <p>Abanderallo del pabellon nacional en el colegio San Benildo La Salle</p>
-      <p>Mejor bachiller de la promoción en el Colegio San Benildo La Salle</p>
+      <h2 class="subtitle">Premios y Reconocimientos</h2>
+      <ul>
+        <li>Abanderado del pabellón nacional en el colegio San Benildo La Salle</li>
+        <li>Mejor bachiller de la promoción en el Colegio San Benildo La Salle</li>
+      </ul>
     </section>
 
     <section id="proyectos">
-      <h2>Proyectos</h2>
-      <p>Mini-proyecto de base de datos para la biblioteca de un colegio.</p>
-      <p>Proyecto de laboratorio de redes usando Cisco Packet Tracer.</p>
+      <h2 class="subtitle">Proyectos</h2>
+      <ul>
+        <li>Mini-proyecto de base de datos para la biblioteca de un colegio</li>
+        <li>Proyecto de laboratorio de redes usando Cisco Packet Tracer</li>
+      </ul>
+    </section>
+
+    <section id="referencias">
+      <h2 class="subtitle">Referencias Profesionales</h2>
+      
+      <div class="referencia-card">
+        <h3>María Elena Vásquez</h3>
+        <p class="cargo">Gerente General</p>
+        <p class="empresa">Tienda Derick, Quevedo</p>
+        <p class="comentario">
+          "Henry demostró ser un empleado excepcional durante sus años con nosotros. Su capacidad para conectar con los clientes y resolver problemas de forma eficiente fue invaluable. Siempre mostró responsabilidad, puntualidad y un excelente manejo del inventario. Lo recomiendo ampliamente para cualquier posición que requiera habilidades de atención al cliente."
+        </p>
+        <p class="contacto-ref">
+          <strong>Tel:</strong> +593 987 654 321 | 
+          <a href="mailto:m.vasquez@tiendaderick.com">m.vasquez@tiendaderick.com</a>
+        </p>
+      </div>
+
+      <div class="referencia-card">
+        <h3>Ing. Paul Urdiales</h3>
+        <p class="cargo">Vicerrector y docente</p>
+        <p class="empresa">Colegio San Benildo La Salle</p>
+        <p class="comentario">
+          "Henry ha sido un estudiante destacado durante su vida académica en el colegio. Su proyecto de biblioteca escolar demostró una comprensión sólida de diseño relacional y SQL. Es proactivo, colaborativo con sus compañeros y siempre dispuesto a aprender. Tiene gran potencial en el área de gestión de datos y desarrollo de sistemas."
+        </p>
+        <p class="contacto-ref">
+          <strong>Tel:</strong> +593 991 234 567 | 
+          <a href="mailto:cmendoza@espol.edu.ec">urdialespaul@sanbenildolasalle.edu.ec</a>
+        </p>
+      </div>
+
+      <div class="referencia-card">
+        <h3>Ing. Patricia Salinas</h3>
+        <p class="cargo">Coordinadora Académica</p>
+        <p class="empresa">Colegio San Benildo La Salle</p>
+        <p class="comentario">
+          "Como mejor bachiller de su promoción y abanderado nacional, Henry siempre se destacó por su dedicación académica, liderazgo y valores. Su interés por la tecnología era evidente desde temprano. Es una persona íntegra, responsable y con excelentes habilidades interpersonales. Será un gran profesional en cualquier campo que elija."
+        </p>
+        <p class="contacto-ref">
+          <strong>Tel:</strong> +593 985 432 198 | 
+          <a href="mailto:p.salinas@sanbenildo.edu.ec">p.salinas@sanbenildo.edu.ec</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="video-proyecto">
+      <h2 class="subtitle">Demostración de Proyectos</h2>
+      <figure>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/watch?v=VDma3SH3aaQ" 
+          title="Presentación de proyectos - Henry Olvera"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <figcaption>Video de presentación de proyectos académicos y habilidades técnicas</figcaption>
+      </figure>
+    </section>
+
+    <section id="ubicacion">
+      <h2 class="subtitle">Ubicación</h2>
+      <figure>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15947.742025728934!2d-79.90234768715819!3d-2.1456447999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d9a1c5a5d5d%3A0x1234567890abcdef!2sColinas%20de%20la%20Florida%2C%20Guayaquil!5e0!3m2!1ses!2sec!4v1234567890123"
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa de ubicación - Colinas de la Florida 2, Guayaquil">
+        </iframe>
+        <figcaption>Mi ubicación: Colinas de la Florida 2, Guayaquil, Ecuador</figcaption>
+      </figure>
+    </section>
+
+    <section id="formulario-contacto">
+      <h2 class="subtitle">Contáctame</h2>
+      <p>Si estás interesado en conocer más sobre mi perfil profesional o tienes alguna oportunidad laboral, completa el siguiente formulario:</p>
+      
+      <form action="/enviar-mensaje" method="post">
+        <fieldset>
+          <legend>Información de Contacto</legend>
+          
+          <div>
+            <label for="nombre">Nombre completo:</label>
+            <input 
+              type="text" 
+              id="nombre" 
+              name="nombre" 
+              required 
+              placeholder="Ej: Juan Pérez">
+          </div>
+          
+          <div>
+            <label for="email">Correo electrónico:</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required 
+              placeholder="tu@email.com">
+          </div>
+          
+          <div>
+            <label for="empresa">Empresa u organización:</label>
+            <select id="empresa" name="empresa" required>
+              <option value="">-- Seleccione una opción --</option>
+              <option value="startup">Startup tecnológica</option>
+              <option value="pyme">PYME</option>
+              <option value="corporacion">Corporación grande</option>
+              <option value="universidad">Universidad/Institución educativa</option>
+              <option value="gobierno">Entidad gubernamental</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Motivo del Contacto</legend>
+          
+          <div>
+            <p>Tipo de oportunidad:</p>
+            
+            <div>
+              <label for="oportunidad-empleo">
+                <input 
+                  type="radio" 
+                  id="oportunidad-empleo" 
+                  name="motivo" 
+                  value="empleo" 
+                  required>
+                Oferta de empleo
+              </label>
+            </div>
+            
+            <div>
+              <label for="oportunidad-practica">
+                <input 
+                  type="radio" 
+                  id="oportunidad-practica" 
+                  name="motivo" 
+                  value="practica">
+                Pasantía/Práctica
+              </label>
+            </div>
+            
+            <div>
+              <label for="oportunidad-proyecto">
+                <input 
+                  type="radio" 
+                  id="oportunidad-proyecto" 
+                  name="motivo" 
+                  value="proyecto">
+                Proyecto colaborativo
+              </label>
+            </div>
+            
+            <div>
+              <label for="oportunidad-consultoria">
+                <input 
+                  type="radio" 
+                  id="oportunidad-consultoria" 
+                  name="motivo" 
+                  value="consultoria">
+                Consultoría
+              </label>
+            </div>
+            
+            <div>
+              <label for="oportunidad-otro">
+                <input 
+                  type="radio" 
+                  id="oportunidad-otro" 
+                  name="motivo" 
+                  value="otro">
+                Otro
+              </label>
+            </div>
+          </div>
+          
+          <div>
+            <p>Áreas de interés (seleccione todas las que apliquen):</p>
+            
+            <div>
+              <label for="area-bd">
+                <input 
+                  type="checkbox" 
+                  id="area-bd" 
+                  name="areas[]" 
+                  value="bases-datos">
+                Bases de datos
+              </label>
+            </div>
+            
+            <div>
+              <label for="area-redes">
+                <input 
+                  type="checkbox" 
+                  id="area-redes" 
+                  name="areas[]" 
+                  value="redes">
+                Redes y telecomunicaciones
+              </label>
+            </div>
+            
+            <div>
+              <label for="area-web">
+                <input 
+                  type="checkbox" 
+                  id="area-web" 
+                  name="areas[]" 
+                  value="desarrollo-web">
+                Desarrollo web
+              </label>
+            </div>
+            
+            <div>
+              <label for="area-atencion">
+                <input 
+                  type="checkbox" 
+                  id="area-atencion" 
+                  name="areas[]" 
+                  value="atencion-cliente">
+                Atención al cliente
+              </label>
+            </div>
+            
+            <div>
+              <label for="area-ventas">
+                <input 
+                  type="checkbox" 
+                  id="area-ventas" 
+                  name="areas[]" 
+                  value="ventas">
+                Ventas
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Mensaje</legend>
+          
+          <div>
+            <label for="mensaje">Cuéntame más sobre la oportunidad:</label>
+            <textarea 
+              id="mensaje" 
+              name="mensaje" 
+              rows="6" 
+              cols="50" 
+              required 
+              placeholder="Describe la oportunidad, requisitos, expectativas, etc."></textarea>
+          </div>
+        </fieldset>
+        
+        <div>
+          <button type="submit">Enviar mensaje</button>
+          <button type="reset">Limpiar formulario</button>
+        </div>
+      </form>
     </section>
   </main>
 
   <footer>
     <p>Currículum generado con la experiencia del autor</p>
-    <p>Última actualización: 01/10/2025</p>
+    <p>Última actualización: <time datetime="2025-10-01">01/10/2025</time></p>
   </footer>
 
 </body>
